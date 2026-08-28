@@ -1,0 +1,49 @@
+# Secretos. Esto es lo importante: el repositorio es público.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Dependencias
+node_modules/
+.venv/
+venv/
+__pycache__/
+vendor/
+target/
+.bundle/
+
+# Builds y caches
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.cache/
+*.tsbuildinfo
+coverage/
+
+# Logs y temporales
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
